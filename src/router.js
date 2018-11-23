@@ -49,7 +49,7 @@ export default new Router({
                     path: 'data-editing',
                     component: DataEditing
                 },
-                {
+                { 
                     path: 'data-export',
                     component: DataExport
                 },

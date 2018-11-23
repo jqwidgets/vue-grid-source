@@ -17,7 +17,7 @@
             </div>
             <div>
                 <pre><code ref="code">
-    &lt;template>
+    &lt;template> 
         &lt;div>
            &lt;JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" 
                     :columns="columns" :autoheight="true" :virtualmode="true" 

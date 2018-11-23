@@ -13,7 +13,7 @@
                 <JqxGrid ref="myGrid"
                          :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                          :sortable="true" :altrows="true" :selectionmode="'multiplecellsadvanced'">
-                </JqxGrid>
+                </JqxGrid> 
                 <div style="height: 60px; margin-top: 15px;">
                     <div style="float: left">
                         <JqxButton :theme="'material'" @click="excelBtnOnClick()">Export to Excel</JqxButton>

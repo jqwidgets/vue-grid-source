@@ -21,7 +21,7 @@
            &lt;JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                     :virtualmode="true" :rendergridrows="rendergridrows">
            &lt;/JqxGrid>
-        &lt;/div>
+        &lt;/div> 
     &lt;/template>
     &lt;script>
         import JqxGrid from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxgrid.vue';
@@ -66,7 +66,7 @@
             methods: {
                 generateData: function (startindex, endindex) {
                     let data = {};
-                    for (let i = startindex; i < endindex; i++) {
+                    for (let i = startindex; i &lt; endindex; i++) {
                         let row = {};
                         let productindex = Math.floor(Math.random() * this.productNames.length);
                         let price = parseFloat(this.priceValues[productindex]);

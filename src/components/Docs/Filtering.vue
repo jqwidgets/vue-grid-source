@@ -474,7 +474,8 @@ import JqxGrid from "jqwidgets-scripts/jqwidgets-vue/vue_jqxgrid.vue";
             }
         },
         methods: {
-            updatefilterconditions: function (type, defaultconditions) {
+            // eslint-disable-next-line
+            updatefilterconditions: function (type, defaultconditions) { 
                 let stringcomparisonoperators = ['CONTAINS', 'DOES_NOT_CONTAIN'];
                 let numericcomparisonoperators = ['LESS_THAN', 'GREATER_THAN'];
                 let datecomparisonoperators = ['LESS_THAN', 'GREATER_THAN'];

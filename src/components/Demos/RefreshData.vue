@@ -16,7 +16,7 @@
                 <div style="height: 25px; margin-top: 15px">
                     <JqxButton :theme="'material'" @click="refreshBtnOnClick()">Refresh Data</JqxButton>
                     <JqxButton :theme="'material'" @click="clearBtnOnClick()">Clear</JqxButton>
-                </div>
+                </div>  
             </div>
             <div>
                 <pre><code ref="code">

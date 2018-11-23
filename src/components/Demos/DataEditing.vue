@@ -12,7 +12,7 @@
             <div>
                 <JqxGrid @cellbeginedit="cellBeginEditEvent($event)" @cellendedit="cellEndEditEvent($event)"
                          :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
-                         :editable="true" :enabletooltips="true" :selectionmode="'multiplecellsadvanced'">
+                         :editable="true" :enabletooltips="true" :selectionmode="'multiplecellsadvanced'"> 
                 </JqxGrid>
                 <div style="height: 50px; font-size: 12px; font-family: Verdana; margin-top: 30px;">
                     <div ref="beginEdit"></div>

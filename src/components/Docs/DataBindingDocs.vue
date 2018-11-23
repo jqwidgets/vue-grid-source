@@ -34,7 +34,7 @@
             <li>
                 pager - callback function called when the current page or page size is changed.
                 <pre class="preCode"><code class="code">pager: function (pagenum, pagesize, oldpagenum) {
-}</code></pre>
+}</code></pre> 
             </li>
             <li>sortcolumn - determines the initial sort column. The expected value is a data field name.</li>
             <li>sortdirection - determines the sort order. The expected value is 'asc' for (A to Z) sorting or 'desc' for (Z to A) sorting.</li>

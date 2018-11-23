@@ -17,7 +17,7 @@
         <strong>Keyboard Edit Actions and Navigation</strong>
         <br /><br />
         If the user starts typing text, the cell's content is replaced with the text entered from the user.
-        <ul>
+        <ul> 
             <li>Left Arrow key is pressed - Selects the left cell, when the Grid is not in edit mode. Otherwise, the key stroke is handled by the editor.</li>
             <li>Right Arrow key is pressed - Selects the right cell, when the Grid is not in edit mode. Otherwise, the key stroke is handled by the editor.</li>
             <li>Up Arrow key is pressed - Selects the cell above, when the Grid is not in edit mode. Otherwise, the key stroke is handled by the editor.</li>

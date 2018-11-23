@@ -217,7 +217,6 @@
                 let nestedGridContainer = parentElement.children[0];
                 this.nestedGrids[index] = nestedGridContainer;
                 let filtergroup = new jqx.filter();
-                let filter_or_operator = 1;
                 let filtervalue = id;
                 let filtercondition = 'equal';
                 let filter = filtergroup.createfilter('stringfilter', filtervalue, filtercondition);
@@ -259,6 +258,7 @@
                     jqwidgets.createInstance(`#${nestedGridContainer.id}`, 'jqxGrid', settings);
                 }
             },
+            // eslint-disable-next-line
             photoRenderer: function (row, column, value) {
                 let name = this.$refs.myGrid.getrowdata(row).FirstName;
                 let imgurl = './images/' + name.toLowerCase() + '.png';

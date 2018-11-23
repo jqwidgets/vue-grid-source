@@ -30,7 +30,7 @@
 &lt;script&gt;
   import JqxGrid from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxgrid.vue';
  
-  export default {
+  export default { 
     components: {
       JqxGrid
     },

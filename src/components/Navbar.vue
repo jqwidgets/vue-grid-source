@@ -18,10 +18,10 @@
 </template>
 <script>
     export default {
-        name: 'Navbar'
-    }
-</script>
-<style scoped>
+        name: 'Navbar'  
+    } 
+</script> 
+<style scoped> 
     .logo {
         height: 50px;
     }

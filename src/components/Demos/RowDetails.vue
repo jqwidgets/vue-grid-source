@@ -16,7 +16,7 @@
                          :rowdetailstemplate="rowdetailstemplate" :ready="ready">
                 </JqxGrid>
             </div>
-            <div>
+            <div> 
                 <pre><code ref="code">
     &lt;template>
         &lt;div>

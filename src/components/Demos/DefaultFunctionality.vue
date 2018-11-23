@@ -16,7 +16,7 @@
             </div>
             <div>
                 <pre><code ref="code">
-    &lt;template>
+    &lt;template> 
         &lt;JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                  :pageable="true" :autoheight="true" :sortable="true" :filterable="true" :altrows="true" 
                  :editable="true" :selectionmode="'multiplecellsadvanced'" :columngroups="columngroups">
@@ -128,6 +128,7 @@
             }
         },
         methods: {
+            // eslint-disable-next-line
             cellsrenderer: function (row, columnsfield, value, defaulthtml, columnproperties, rowdata) {
                 if (value < 20) {
                     return '<span style="margin: 4px; float: ' + columnproperties.cellsalign + '; color: #ff0000;">' + value + '</span>';

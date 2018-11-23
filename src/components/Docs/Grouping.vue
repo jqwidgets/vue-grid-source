@@ -32,7 +32,7 @@
     &lt;JqxGrid ref="myGrid" :theme="'material'" :width="width" :source="source" :columns="columns" 
              :groupable="true" :groups="['Title']">
     &lt;/JqxGrid>
-&lt;/template>
+&lt;/template> 
 &lt;script>
 import JqxGrid from "jqwidgets-scripts/jqwidgets-vue/vue_jqxgrid.vue";
     export default {

@@ -18,7 +18,7 @@
         let pagenumber = args.pagenum;
         let pagesize = args.pagesize;
     },
-    onPageSizeChanged: function (event) {
+    onPageSizeChanged: function (event) { 
        let args = event.args;
        let pagenumber = args.pagenum;
        let pagesize = args.pagesize; 

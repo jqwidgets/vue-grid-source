@@ -24,7 +24,7 @@
         <p style="margin-bottom: 0.5em;"><span style="font-size: 15px;"><strong>V.</strong></span> And then add it to the component section like this:</p>
         <pre class="preCode"><code>components: {
     JqxGrid
-},
+}, 
 </code></pre>
  
         <p style="margin-bottom: 0.5em;">

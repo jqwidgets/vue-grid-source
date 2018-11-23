@@ -17,7 +17,7 @@
     { text: 'Shipped Date', datafield: 'ShippedDate', width: 230, cellsformat: 'D' },
     { text: 'Freight', datafield: 'Freight', width: 130, cellsformat: 'F2', cellsalign: 'right' },
     { text: 'Ship Address', datafield: 'ShipAddress', width: 350 },
-    { text: 'Ship City', datafield: 'ShipCity', width: 100 },
+    { text: 'Ship City', datafield: 'ShipCity', width: 100 }, 
     { text: 'Ship Country', datafield: 'ShipCountry', width: 100 }
 ]</code></pre>
         <br />

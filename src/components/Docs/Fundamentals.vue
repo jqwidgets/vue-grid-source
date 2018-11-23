@@ -1,4 +1,4 @@
-<template v-for="i in 1">
+<template>
     <div class="fundamentals">
         <h1>Vue Grid - Fundamentals</h1>
         <h3>Configuration</h3>
@@ -20,7 +20,7 @@
         <pre class="preCode"><code class="code">&lt;template>
     &lt;JqxGrid :theme="'material'" :width="width" :source="dataAdapter"
              :columns="columns" :columnsresize="true"
-             :pageable="true">
+             :pageable="true"> 
     &lt;/JqxGrid>
 &lt;/template></code></pre>
         <br />
