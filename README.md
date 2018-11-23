@@ -1,7 +1,5 @@
 # vue-grid
 
-## Project setup
-
 ### Install the needed npm packages
 ```
 npm install
